@@ -16,3 +16,5 @@ My mini monitor
 
 1. once click the Insert button, init all fields
 2. need a status bar beside task name to show whether the insert is successfully.
+3. mimo.db init when we use it the first time
+4. thinking about db backup. github? baidu pan?
