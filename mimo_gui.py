@@ -1,8 +1,21 @@
 from tkinter import *
+from tkinter import messagebox
 
 
 def insertSQL():
     print("insert sqlite3")
+
+
+def nullTaskNamePopup():
+    messagebox.showinfo("Warning...", "The task name should not be empty")
+
+
+def clickInsertButton():
+    task_name = entry_task.get()
+    if len(task_name) == 0:
+        nullTaskNamePopup()
+    else:
+        insertSQL()
 
 root = Tk()
 root.title("Day Task")
@@ -14,7 +27,8 @@ topFrame.pack()
 label_task = Label(topFrame, text="task name")
 label_task.pack(side=LEFT)
 
-entry_task = Entry(topFrame, bd=5)
+stringVar = StringVar()
+entry_task = Entry(topFrame, bd=5, textvariable=stringVar)
 entry_task.pack(side=RIGHT)
 
 # middile frame contains 3 element, there are content input, comment input
@@ -50,7 +64,7 @@ scale = Scale(scaleFrame, variable=var, orient=HORIZONTAL, length=290)
 scale.pack()
 
 # button
-insert = Button(buttomFrame, text="Insert", command=insertSQL)
+insert = Button(buttomFrame, text="Insert", command=clickInsertButton)
 insert.pack(side=RIGHT)
 
 mainloop()
