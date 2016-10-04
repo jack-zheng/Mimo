@@ -1,9 +1,29 @@
 from tkinter import *
 from tkinter import messagebox
+import sqlite3 as lite
 
 
 def insertSQL():
-    print("insert sqlite3")
+    # get task_name, content, comment and score value
+    sql_task_name = entry_task.get()
+
+    # delete leading and trailing '\n' and translate with repr()
+    sql_content = text_content.get(1.0, "end-1c")
+    sql_content_deal = repr(sql_content.strip())
+
+    sql_comment = entry_comment.get()
+    sql_scale = scale.get()
+
+    # query
+    query = 'INSERT INTO DAY_TASK ("TASK_NAME", "DETAIL", "STAR", "COMMENT", "Time") VALUES (?, ?, ?, ?, datetime("now", "localtime"))'
+
+    dicValue = ((sql_task_name, sql_content_deal, sql_scale, sql_comment))
+
+    con = lite.connect("mimo.db")
+    with con:
+        cur = con.cursor()
+        cur.execute(query, dicValue)
+        con.commit()
 
 
 def nullTaskNamePopup():
