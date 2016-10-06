@@ -46,6 +46,11 @@ def clickInsertButton():
         insertSQL()
         initColumn()
 
+
+def select_all(event):
+    text_content.tag_add(SEL, "1.0", END)
+    return "break"
+
 root = Tk()
 root.title("Day Task")
 
@@ -68,6 +73,7 @@ textFrame = LabelFrame(midFrame, text="Content...")
 textFrame.pack(fill="both", expand="yes")
 
 text_content = Text(textFrame, bd=5, height=7, width=50)
+text_content.bind("<Control-Key-a>", select_all)
 text_content.pack()
 
 entryFrame = LabelFrame(midFrame, text="Comment...")
