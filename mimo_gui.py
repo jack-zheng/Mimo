@@ -30,12 +30,21 @@ def nullTaskNamePopup():
     messagebox.showinfo("Warning...", "The task name should not be empty")
 
 
+# clean input column after record insert into db.
+def initColumn():
+    entry_task.delete(0, END)
+    text_content.delete(1.0, END)
+    entry_comment.delete(0, END)
+    scale.set(0)
+
+
 def clickInsertButton():
     task_name = entry_task.get()
     if len(task_name) == 0:
         nullTaskNamePopup()
     else:
         insertSQL()
+        initColumn()
 
 root = Tk()
 root.title("Day Task")
@@ -52,7 +61,6 @@ entry_task = Entry(topFrame, bd=5, textvariable=stringVar)
 entry_task.pack(side=RIGHT)
 
 # middile frame contains 3 element, there are content input, comment input
-# and star scale.
 midFrame = Frame(root)
 midFrame.pack()
 
@@ -73,8 +81,6 @@ buttomFrame = Frame(root)
 buttomFrame.pack()
 
 # label
-# scoreLabel = Label(buttomFrame, text="Score")
-# scoreLabel.pack(side=LEFT)
 scaleFrame = LabelFrame(buttomFrame, text="Score...")
 scaleFrame.pack(side=LEFT)
 
