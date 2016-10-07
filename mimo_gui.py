@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-import sqlite3 as lite
+import dbUtil
 
 
 def insertSQL():
@@ -14,16 +14,8 @@ def insertSQL():
     sql_comment = entry_comment.get()
     sql_scale = scale.get()
 
-    # query
-    query = 'INSERT INTO DAY_TASK ("TITLE", "CONTENT", "SCORE", "COMMENT", "TIME") VALUES (?, ?, ?, ?, datetime("now", "localtime"))'
-
-    dicValue = ((sql_task_name, sql_content_deal, sql_scale, sql_comment))
-
-    con = lite.connect("mimo.db")
-    with con:
-        cur = con.cursor()
-        cur.execute(query, dicValue)
-        con.commit()
+    tupleV = (sql_task_name, sql_content_deal, sql_scale, sql_comment)
+    dbUtil.insertTask(tupleV)
 
 
 def nullTaskNamePopup():
