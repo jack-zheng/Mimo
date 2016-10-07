@@ -52,13 +52,13 @@ def select_all(event):
     return "break"
 
 root = Tk()
-root.title("Day Task")
+root.title("MiMo Pro")
 
 # top frame contains task name input blank.
 topFrame = Frame(root)
 topFrame.pack()
 
-label_task = Label(topFrame, text="task name")
+label_task = Label(topFrame, text="Title")
 label_task.pack(side=LEFT)
 
 stringVar = StringVar()
