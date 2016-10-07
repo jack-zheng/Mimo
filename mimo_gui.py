@@ -15,7 +15,7 @@ def insertSQL():
     sql_scale = scale.get()
 
     # query
-    query = 'INSERT INTO DAY_TASK ("TASK_NAME", "DETAIL", "STAR", "COMMENT", "Time") VALUES (?, ?, ?, ?, datetime("now", "localtime"))'
+    query = 'INSERT INTO DAY_TASK ("TITLE", "CONTENT", "SCORE", "COMMENT", "TIME") VALUES (?, ?, ?, ?, datetime("now", "localtime"))'
 
     dicValue = ((sql_task_name, sql_content_deal, sql_scale, sql_comment))
 
