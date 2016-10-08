@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <movie>
+        <name>寄生兽</name>
+        <score>95</score>
+        <tags>
+            <tag>人性</tag>
+            <tag>异形</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>漫画和动画都很精彩，值得强力推荐</comment>
+    </movie>
+
+
+    <movie>
+        <name>属性同好会</name>
+        <score>80</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>日常</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime>10/2016<datetime>
+        <comment>凑合， 芦花很萌</comment>
+    </movie>
+
+    <movie>
+        <name>追捕野蛮人</name>
+        <score>75</score>
+        <tags>
+            <tag>治愈</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime>10/2016<datetime>
+        <comment>人设很像飞屋环游， 可以一看</comment>
+    </movie>
+
+    <movie>
+        <name>这个美术社大有问题</name>
+        <score>85</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>很搞笑， 人设也很有趣</comment>
+    </movie>
+
+    <movie>
+        <name>灵能百分百</name>
+        <score>95</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>搞笑</tag>
+            <tag>异能</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>不能更赞了，正能量，不一般画风</comment>
+    </movie>
+
+    <movie>
+        <name>一拳超人</name>
+        <score>95</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>异能</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>人设很棒， 不一般的画风</comment>
+    </movie>
+
+</root>
