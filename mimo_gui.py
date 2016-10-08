@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-import sqlite3 as lite
+import dbUtil
 
 
 def insertSQL():
@@ -14,16 +14,8 @@ def insertSQL():
     sql_comment = entry_comment.get()
     sql_scale = scale.get()
 
-    # query
-    query = 'INSERT INTO DAY_TASK ("TASK_NAME", "DETAIL", "STAR", "COMMENT", "Time") VALUES (?, ?, ?, ?, datetime("now", "localtime"))'
-
-    dicValue = ((sql_task_name, sql_content_deal, sql_scale, sql_comment))
-
-    con = lite.connect("mimo.db")
-    with con:
-        cur = con.cursor()
-        cur.execute(query, dicValue)
-        con.commit()
+    tupleV = (sql_task_name, sql_content_deal, sql_scale, sql_comment)
+    dbUtil.insertTask(tupleV)
 
 
 def nullTaskNamePopup():
@@ -46,14 +38,19 @@ def clickInsertButton():
         insertSQL()
         initColumn()
 
+
+def select_all(event):
+    text_content.tag_add(SEL, "1.0", END)
+    return "break"
+
 root = Tk()
-root.title("Day Task")
+root.title("MiMo Pro")
 
 # top frame contains task name input blank.
 topFrame = Frame(root)
 topFrame.pack()
 
-label_task = Label(topFrame, text="task name")
+label_task = Label(topFrame, text="Title")
 label_task.pack(side=LEFT)
 
 stringVar = StringVar()
@@ -68,6 +65,7 @@ textFrame = LabelFrame(midFrame, text="Content...")
 textFrame.pack(fill="both", expand="yes")
 
 text_content = Text(textFrame, bd=5, height=7, width=50)
+text_content.bind("<Control-Key-a>", select_all)
 text_content.pack()
 
 entryFrame = LabelFrame(midFrame, text="Comment...")

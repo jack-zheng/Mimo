@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <movie>
+        <name>寄生兽</name>
+        <score>95</score>
+        <tags>
+            <tag>人性</tag>
+            <tag>异形</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>漫画和动画都很精彩，值得强力推荐</comment>
+    </movie>
+
+
+    <movie>
+        <name>属性同好会</name>
+        <score>80</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>日常</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime>10/2016<datetime>
+        <comment>凑合， 芦花很萌</comment>
+    </movie>
+
+    <movie>
+        <name>追捕野蛮人</name>
+        <score>75</score>
+        <tags>
+            <tag>治愈</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime>10/2016<datetime>
+        <comment>人设很像飞屋环游， 可以一看</comment>
+    </movie>
+
+    <movie>
+        <name>这个美术社大有问题</name>
+        <score>85</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>很搞笑， 人设也很有趣</comment>
+    </movie>
+
+    <movie>
+        <name>灵能百分百</name>
+        <score>95</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>搞笑</tag>
+            <tag>异能</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>不能更赞了，正能量，不一般画风</comment>
+    </movie>
+
+    <movie>
+        <name>一拳超人</name>
+        <score>95</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>异能</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>人设很棒， 不一般的画风</comment>
+    </movie>
+
+    <movie>
+        <name>RE:从零开始异世界生活</name>
+        <score>87</score>
+        <tags>
+            <tag>穿越</tag>
+            <tag>颜艺</tag>
+            <tag>蕾姆</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>穿越剧，7月番黑马</comment>
+    </movie>
+
+    <movie>
+        <name>食戟之灵</name>
+        <score>86</score>
+        <tags>
+            <tag>美食</tag>
+            <tag>春药</tag>
+            <tag>特效</tag>
+        </tags>
+        <datetime>09/2016<datetime>
+        <comment>春药之灵， 可以一看</comment>
+    </movie>
+
+    <movie>
+        <name>叛逆的鲁路修</name>
+        <score>99</score>
+        <tags>
+            <tag>超能力</tag>
+            <tag>机战</tag>
+            <tag>心机</tag>
+        </tags>
+        <datetime>10/2008<datetime>
+        <comment>少给一分怕你骄傲</comment>
+    </movie>
+
+    <movie>
+        <name>K-ON(轻音少女)</name>
+        <score>97</score>
+        <tags>
+            <tag>校园</tag>
+            <tag>音乐</tag>
+            <tag>萌</tag>
+        </tags>
+        <datetime>10/2010<datetime>
+        <comment>呆唯什么的最喜欢了</comment>
+    </movie>
+
+    <movie>
+        <name>超元气三姐妹</name>
+        <score>93</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>萝莉</tag>
+            <tag>萌</tag>
+        </tags>
+        <datetime>04/2014<datetime>
+        <comment>真的很搞笑</comment>
+    </movie>
+
+    <movie>
+        <name>日常</name>
+        <score>94</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>校园</tag>
+            <tag>萌</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>我喜欢的搞笑作品前10</comment>
+    </movie>
+
+
+    <movie>
+        <name>男子高中生日常</name>
+        <score>95</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>校园</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>我喜欢的搞笑作品前10， 声优阵容爆炸</comment>
+    </movie>
+
+
+    <movie>
+        <name>银魂</name>
+        <score>97</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>战斗</tag>
+            <tag>热血</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>以前onepiece， 现在他才是我的第一</comment>
+    </movie>
+
+    <movie>
+        <name>海贼王</name>
+        <score>97</score>
+        <tags>
+            <tag>搞笑</tag>
+            <tag>战斗</tag>
+            <tag>热血</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>前任第一位， 让你哭来让你笑</comment>
+    </movie>
+
+    <movie>
+        <name>死神</name>
+        <score>91</score>
+        <tags>
+            <tag>战斗</tag>
+            <tag>热血</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>青春时的记忆， 前中期还是很好看的</comment>
+    </movie>
+
+    <movie>
+        <name>火影忍者</name>
+        <score>90</score>
+        <tags>
+            <tag>战斗</tag>
+            <tag>热血</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>青春时的记忆， 三大民工漫， 你懂得</comment>
+    </movie>
+
+    <movie>
+        <name>人形电脑天使心</name>
+        <score>97</score>
+        <tags>
+            <tag>恋爱</tag>
+            <tag>萌</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>入宅作， 必须高分， 记得看的时候是高二来着</comment>
+    </movie>
+
+    <movie>
+        <name>钢之炼精术师</name>
+        <score>93</score>
+        <tags>
+            <tag>战斗</tag>
+            <tag>兄弟情</tag>
+            <tag>炼金术</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>神作之一</comment>
+    </movie>
+
+    <movie>
+        <name>钢之炼精术师FA</name>
+        <score>92</score>
+        <tags>
+            <tag>战斗</tag>
+            <tag>兄弟情</tag>
+            <tag>炼金术</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>神作之一</comment>
+    </movie>
+
+    <movie>
+        <name>妖精的旋律</name>
+        <score>73</score>
+        <tags>
+            <tag>异人类</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>不是很来感，当年喜欢的人还是很多的</comment>
+    </movie>
+
+    <movie>
+        <name>妖精的尾巴</name>
+        <score>84</score>
+        <tags>
+            <tag>燃</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>套路老了点， 算是后起之秀， 不错</comment>
+    </movie>
+
+    <movie>
+        <name>无皇刃谭</name>
+        <score>84</score>
+        <tags>
+            <tag>战斗</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>画风精良，打斗也挺精彩</comment>
+    </movie>
+
+    <movie>
+        <name>棋魂</name>
+        <score>90</score>
+        <tags>
+            <tag>棋艺</tag>
+            <tag>少年</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>画风精良，童年回忆</comment>
+    </movie>
+
+    <movie>
+        <name>花丸幼稚园</name>
+        <score>75</score>
+        <tags>
+            <tag>萌</tag>
+            <tag>搞笑</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>消磨一下时间还是可以的</comment>
+    </movie>
+
+    <movie>
+        <name>飞轮少年</name>
+        <score>73</score>
+        <tags>
+            <tag>运动</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>不太记得了，感觉一般</comment>
+    </movie>
+
+    <movie>
+        <name>家庭教师Reborn</name>
+        <score>87</score>
+        <tags>
+            <tag>热血</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>算中长篇， 画风什么不错， 重要的是3倍速看完前20集</comment>
+    </movie>
+
+    <movie>
+        <name>Fate stay night</name>
+        <score>75</score>
+        <tags>
+            <tag>热血</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>不是很来感，第一遍还看不懂， 我只看动画</comment>
+    </movie>
+
+    <movie>
+        <name>Fate/Zero</name>
+        <score>91</score>
+        <tags>
+            <tag>热血</tag>
+            <tag>战斗</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>一句话： 经费在燃烧！</comment>
+    </movie>
+
+    <movie>
+        <name>吸血鬼骑士</name>
+        <score>50</score>
+        <tags>
+            <tag>恋爱</tag>
+            <tag>吸血鬼</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>不是我的菜， 没看几集就弃了</comment>
+    </movie>
+
+    <movie>
+        <name>忍者乱太郎</name>
+        <score>76</score>
+        <tags>
+            <tag>搞笑</tag>
+	    <tag>童年</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>童年会议， 看的TV版， 后来就不看了</comment>
+    </movie>
+
+    <movie>
+        <name>多啦A梦</name>
+        <score>80</score>
+        <tags>
+            <tag>搞笑</tag>
+	    <tag>童年</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>童年会议， 看的TV版， 后来就不看了</comment>
+    </movie>
+
+    <movie>
+        <name>光能勇士</name>
+        <score>84</score>
+        <tags>
+            <tag>搞笑</tag>
+	    <tag>童年</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>这部剧的国产配音和OP简直时楷模， 毫无违和感</comment>
+    </movie>
+
+    <movie>
+        <name>名侦探柯南</name>
+        <score>79</score>
+        <tags>
+	    <tag>童年</tag>
+	    <tag>悬疑</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>对这种题材不是很感冒， 照这种死人速度日本离亡国不远了</comment>
+    </movie>
+
+    <movie>
+        <name>魔卡少女樱</name>
+        <score>82</score>
+        <tags>
+	    <tag>童年</tag>
+	    <tag>校园</tag>
+	    <tag>马猴烧酒</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>当年的女生</comment>
+    </movie>
+
+    <movie>
+        <name>我的女神</name>
+        <score>74</score>
+        <tags>
+	    <tag>恋爱</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>第一季还不错, 后面就比较无趣了</comment>
+    </movie>
+
+
+    <movie>
+        <name>k</name>
+        <score>74</score>
+        <tags>
+	    <tag>声优</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>一般般, 不来感</comment>
+    </movie>
+
+    <movie>
+        <name>魔法禁书目录</name>
+        <score>84</score>
+        <tags>
+	    <tag>战斗</tag>
+	    <tag>异能</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>小黄书还是很不错的,火了好几年</comment>
+    </movie>
+
+    <movie>
+        <name>猪扒大作战</name>
+        <score>87</score>
+        <tags>
+	    <tag>校园</tag>
+	    <tag>恋爱</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>看的第一部日剧, 不错, 2015年看的, 吐槽无力</comment>
+    </movie>
+
+    <movie>
+        <name>求婚大作战</name>
+        <score>93</score>
+        <tags>
+	    <tag>校园</tag>
+	    <tag>恋爱</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>目前为止最喜欢的日剧, 长泽当年实在太美了</comment>
+    </movie>
+
+    <movie>
+        <name>龙樱</name>
+        <score>83</score>
+        <tags>
+	    <tag>校园</tag>
+	    <tag>恋爱</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>应为'求婚'才看的, 一般般吧</comment>
+    </movie>
+
+    <movie>
+        <name>罗马浴场</name>
+        <score>85</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>穿越</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>难得的漫改佳作, 很好笑</comment>
+    </movie>
+
+
+    <movie>
+        <name>变态假面</name>
+        <score>85</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>变身/变态</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>难得的漫改佳作, 很好笑</comment>
+    </movie>
+
+    <movie>
+        <name>大圣归来</name>
+        <score>91</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>萌</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>国产佳作, 国漫要崛起了?</comment>
+    </movie>
+
+
+    <movie>
+        <name>大鱼海棠</name>
+        <score>83</score>
+        <tags>
+	    <tag>小三</tag>
+	    <tag>国漫</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>配角造型倒是很出色, 很有中国风, 已国漫来看还是不错的</comment>
+    </movie>
+
+    <movie>
+        <name>疯狂动物城</name>
+        <score>82</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>迪士尼</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>歌很好听, 剧情可以, 出人意料</comment>
+    </movie>
+
+
+    <movie>
+        <name>冰雪奇缘</name>
+        <score>93</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>迪士尼</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>剧情感人, 音乐满分, 火了好一段时间</comment>
+    </movie>
+
+
+    <movie>
+        <name>罪恶王冠</name>
+        <score>86</score>
+        <tags>
+	    <tag>战斗</tag>
+	    <tag>悲剧</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>配乐满点, 剧情可以, 当季的黑马</comment>
+    </movie>
+
+
+    <movie>
+        <name>精灵旅社</name>
+        <score>83</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>迪士尼</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>还行吧, 挺好看的</comment>
+    </movie>
+
+
+    <movie>
+        <name>僵尸新娘</name>
+        <score>73</score>
+        <tags>
+	    <tag>搞笑</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>忘得差不多了, 一般的感觉</comment>
+    </movie>
+
+
+    <movie>
+        <name>干物妹小埋</name>
+        <score>87</score>
+        <tags>
+	    <tag>搞笑</tag>
+	    <tag>日常</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>很好看, 很好笑, 小埋好萌</comment>
+    </movie>
+</root>
