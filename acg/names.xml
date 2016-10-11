@@ -580,4 +580,26 @@
         <datetime><datetime>
         <comment>很好看, 很好笑, 小埋好萌</comment>
     </movie>
+
+    <movie>
+        <name>秒速5厘米</name>
+        <score>83</score>
+        <tags>
+	    <tag>恋爱</tag>
+	    <tag>日常</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>不是我的菜， 但是画质真的没得黑</comment>
+	</movie>
+
+    <movie>
+        <name>言叶之庭</name>
+        <score>85</score>
+        <tags>
+	    <tag>恋爱</tag>
+	    <tag>日常</tag>
+        </tags>
+        <datetime><datetime>
+        <comment>感觉要比秒5好， 不错</comment>
+	</movie>
 </root>
